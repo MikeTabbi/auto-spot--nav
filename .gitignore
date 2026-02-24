@@ -1,0 +1,49 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+.colcon/
+
+# Docker
+.docker/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+
+# C++ build
+*.o
+*.so
+*.a
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ROS bags (can be large)
+*.bag
+*.db3
+
+# Maps (regenerated)
+*.pgm
+*.yaml
+!config/*.yaml
+
+# ORB-SLAM3 vocabulary (large file - download separately)
+ORBvoc.txt
