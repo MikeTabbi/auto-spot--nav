@@ -64,20 +64,3 @@ spot-autonomous-nav/
 └── README.md
 ```
 
-## Build Phases
-
-- [x] **Phase 1** — Docker + ROS 2 Humble setup
-- [ ] **Phase 2** — Simulated robot in Gazebo
-- [ ] **Phase 3** — ORB-SLAM3 integration
-- [ ] **Phase 4** — Nav2 + A* navigation
-- [ ] **Phase 5** — Frontier-based exploration
-- [ ] **Phase 6** — Real Spot hardware connection
-- [ ] **Phase 7** — Frontend dashboard
-
-## Documentation
-
-See the [Architecture Document](docs/) for detailed implementation guides covering every component.
-
-## License
-
-MIT
